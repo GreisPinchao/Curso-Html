@@ -1,0 +1,26 @@
+<script>
+    //Greis Yamiled Pinchao evaluacion 1
+    var edad;
+    var antiguedad;
+
+    edad = parseInt( prompt('Por favor ingresa la edad'));
+    antiguedad = parseInt( prompt('Por favor ingresa la antiguedad'));
+
+    if (edad >= 60 && antiguedad < 25){
+    // jubilacion por edad
+
+        document.writeln("jubilacion por edad")
+    } else if (edad <= 60 && antiguedad >= 25){
+        document.writeln("jubilacion por antiguedad")
+
+    }else     if (edad >=60 && antiguedad >=25){
+        //jubilacion por antiguedad
+        document.writeln("jubilacion por antiguedad adulta")
+    }
+    //jubilacion por antiguedad adulta
+    else {
+        document.writeln("jubiilacion no aceptada")
+        
+    }
+
+</script>

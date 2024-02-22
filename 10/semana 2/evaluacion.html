@@ -1,0 +1,19 @@
+<script>
+    var hora=0;
+    var min=0;
+    var seg=0;
+    hora=parseInt(prompt("Escriba la hora"));
+    min=parseInt(prompt("Escriba los minutos"));
+    seg=parseInt(prompt("Escriba los segundos"));
+   
+    var tiempo_seg = hora*3600  + min*60 + seg;
+    var tiempo_min = tiempo_seg / 60;
+    var tiempo_hora = tiempo_min/ 60;
+
+
+    document.writeln("el tiempo total es:"+"<BR>");
+    document.writeln("en horas es:"+ tiempo_hora+"<BR>");
+    document.writeln("en min es:"+ tiempo_min+"<BR>");
+    document.writeln("en seg es:"+ tiempo_seg+"<BR>");
+    
+</script>

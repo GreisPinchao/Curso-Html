@@ -1,0 +1,32 @@
+<script>
+document.writeln("presentado por: Greis Yamiled Pinchao <br>");
+
+    var valorventasmenores
+    var valorventasmayores
+
+
+    var vendedores;
+
+    vendedores = parseInt(prompt ("Por favor ingresa número de vendedores"));
+
+
+    for(i=1; i<=vendedores;i++){
+
+       valorventasmenores = parseInt(prompt("Por favor ingresa número de ventas menores"));
+        valorventasmayores = parseInt(prompt("Por favor ingresa número de ventas mayores"));
+
+        var comision = (valorventasmenores * 2.5 / 100) + (valorventasmayores * 75 / 100);
+
+        document.writeln("comision del vendedor " +i+ "es:", comision, " <br>") 
+        
+    }
+
+    
+
+
+
+
+
+
+
+</script>
